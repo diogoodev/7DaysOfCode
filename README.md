@@ -5,3 +5,5 @@ Repositorio para os desafios dos 7 dias de codigo da alura:
  e atualizando o readme para testar.
 
 - Testanto funções.
+
+- Aprendendo comando importantes para uso diario.

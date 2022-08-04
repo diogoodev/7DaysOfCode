@@ -1,99 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <h2>Filmes Populares</h2>
-    <div class="input-container">
-      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
-      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
-    </div>
-    <div class="showOnlyFavorites">
-      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
-      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
-    </div>
-    <div class="movies">
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://media.filmelier.com/images/filmes/cartaz/616143672400x1600bb_(1).jpg" alt="O Poderoso Chefão (1972)"/>
-          </div>
-          <div class="movie-text">
-            <h4>O Poderoso Chefão (1972)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.8</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Filmes Populares</h2>
+      <div class="input-container">
+        <input
+          type="text"
+          name="movie-name"
+          id="movie-name"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <img
+          src="images/search-icon.svg"
+          alt="Ícone de pesquisa"
+          class="searchIcon"
+        />
+      </div>
+      <div class="showOnlyFavorites">
+        <input type="checkbox" name="onlyFavorites" id="onlyFavorites" />
+        <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+      </div>
+      <div class="movies">
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://media.filmelier.com/images/filmes/cartaz/616143672400x1600bb_(1).jpg"
+                alt="O Poderoso Chefão (1972)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>O Poderoso Chefão (1972)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.8</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
+          <div class="movie-description">
+            <span
+              >Nos Estados Unidos dos anos 40 e 50, a família Corleone, chefiada
+              pelo patriarca Don Vito, vive em constante confronto com outros
+              grupos mafiosos pelo controle de vários negócios ilegais.</span
+            >
+          </div>
         </div>
-        <div class="movie-description">
-          <span>Nos Estados Unidos dos anos 40 e 50, a família Corleone, chefiada pelo patriarca Don Vito, vive em constante confronto com outros grupos mafiosos pelo controle de vários negócios ilegais.</span>
-        </div>
-      </div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg"
+                alt="Batman (2022)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>Batman (2022)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
+          <div class="movie-description">
+            <span
+              >Após dois anos nas ruas de Gotham City, Batman está cada vez mais
+              à vontade nas sombras, fazendo os criminosos tremer de medo com a
+              sua presença. Quando um assassino sádico coloca na mira a elite de
+              Gotham, o melhor detetive do mundo terá de seguir uma série de
+              pistas nebulosas até ao submundo, onde irá encontrar Selina Kyle
+              (Mulher-Gato), Oswald Cobblepot (o Pinguim), Carmine Falcone e
+              Edward Ashton (o Enigma). As pistas levarão Batman até ao seu
+              próprio círculo íntimo, tornando clara a dimensão dos planos
+              maquiavélicos colocados em ação.</span
+            >
+          </div>
         </div>
-        <div class="movie-description">
-          <span>Após dois anos nas ruas de Gotham City, Batman está cada vez mais à vontade nas sombras, fazendo os criminosos tremer de medo com a sua presença. Quando um assassino sádico coloca na mira a elite de Gotham, o melhor detetive do mundo terá de seguir uma série de pistas nebulosas até ao submundo, onde irá encontrar Selina Kyle (Mulher-Gato), Oswald Cobblepot (o Pinguim), Carmine Falcone e Edward Ashton (o Enigma). As pistas levarão Batman até ao seu próprio círculo íntimo, tornando clara a dimensão dos planos maquiavélicos colocados em ação.</span>
-        </div>
-      </div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9G0B7bG66fC9RlRQpHSj7vKZXalANACWvuAWT50kT8Lxt3VHgyRmeKHC3BZjpjyQlqno&usqp=CAU" alt="007: Cassino Royale (2006)"/>
-          </div>
-          <div class="movie-text">
-            <h4>007: Cassino Royale (2006)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9G0B7bG66fC9RlRQpHSj7vKZXalANACWvuAWT50kT8Lxt3VHgyRmeKHC3BZjpjyQlqno&usqp=CAU"
+                alt="007: Cassino Royale (2006)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>007: Cassino Royale (2006)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="movie-description">
-          <span>Alterando agora pelo visual studio code e verificando o erro merge Daniel Craig assume o papel de James Bond pela primeira vez em um filme que voltará à primeira missão de Bond. Após receber seu estado de 00 com um assassinato ousado e magistral, Bond deve deter Le Chiffre, um banqueiro de organizações mundiais terroristas e vencer um torneio de pôquer no Casino Royale em Montenegro.</span>
+          <div class="movie-description">
+            <span
+              >Alterando agora pelo visual studio code e verificando o erro
+              merge Daniel Craig assume o papel de James Bond pela primeira vez
+              em um filme que voltará à primeira missão de Bond. Após receber
+              seu estado de 00 com um assassinato ousado e magistral, Bond deve
+              deter Le Chiffre, um banqueiro de organizações mundiais
+              terroristas e vencer um torneio de pôquer no Casino Royale em
+              Montenegro.</span
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>

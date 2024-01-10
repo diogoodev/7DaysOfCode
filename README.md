@@ -14,7 +14,7 @@ Os desafios incluídos neste repositório são focados em desenvolver habilidade
 
 ## Como utilizar este repositório
 
-Cada desafio possui sua própria pasta, onde você encontrará os arquivos relacionados ao desafio específico. Dentro de cada pasta, você pode encontrar arquivos de código, instruções adicionais e recursos complementares, se aplicável.
+Cada desafio possui sua própria pasta, onde você encontrará os arquivos relacionados ao desafio específico. Dentro de cada pasta, você pode encontrar arquivos de código, instruções adicionais e recursos complementares.
 
 ## Contato
 

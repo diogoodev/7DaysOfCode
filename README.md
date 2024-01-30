@@ -23,5 +23,3 @@ Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade p
 - [E-mail](diogoodev@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/diogomouraa)
 
-Divirta-se com os desafios dos 7 dias de código e continue aprimorando suas habilidades de programação!
-

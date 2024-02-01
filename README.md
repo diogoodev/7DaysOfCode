@@ -16,10 +16,3 @@ Os desafios incluídos neste repositório são focados em desenvolver habilidade
 
 Cada desafio possui sua própria pasta, onde você encontrará os arquivos relacionados ao desafio específico. Dentro de cada pasta, você pode encontrar arquivos de código, instruções adicionais e recursos complementares.
 
-## Contato
-
-Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me encontrar em:
-
-- [E-mail](diogoodev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/diogomouraa)
-
